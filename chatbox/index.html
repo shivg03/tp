@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+<body>
+    <section class="chat_section">
+        
+        
+        <div class="code">
+            <img class="img" src="./public/live-chat-icon-7418.png" alt="">
+            <h1>CHATBOX</h1>
+        </div>
+
+
+        <div class="message_area">
+            <div class="incomming message">
+                    <h4>Dagdu</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nisi recusandae. Quas eveniet doloribus praesentium.</p>
+            </div>
+            <div class="outgoing message">
+                    <h4>Aagdu</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nisi recusandae. Quas eveniet doloribus praesentium.</p>
+            </div>
+        </div>
+            <div class="text_area">
+                <div class="text-area-box">
+                 <textarea id="textarea" placeholder="write something"></textarea></div>
+                 <div class="text-area-button">
+
+                 <button id="sendbutton" type="submit">SEND</button>
+
+                </div>
+            </div>
+        
+    </section>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./public/client.js"></script>
+</body>
+</html>
